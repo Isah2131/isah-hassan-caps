@@ -183,7 +183,7 @@ h2 {
 ========================= */
 
 .services {
-    background: #111;
+    background: white;
     padding: 45px 20px;
     margin-bottom: 50px;
     border-radius: 15px;
@@ -734,4 +734,71 @@ html {
     color: #d4af37;
     font-size: 20px;
     margin-top: 15px;
+}
+/* Product Image Touch Animation */
+.product-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.04);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+.product-image:active {
+    transform: scale(1.04);
+}
+.payment {
+    background: white;
+    padding: 45px 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.payment h2 {
+    color: #d4af37;
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.payment > p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.payment-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.payment-method {
+    width: 220px;
+    padding: 20px;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+}
+
+.payment-method h3 {
+    margin-bottom: 8px;
+}
+
+.payment-method p {
+    color: #666;
+}
+
+.payment-note {
+    margin-top: 25px;
+    font-size: 14px;
+}
+.service-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #d4af37;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
